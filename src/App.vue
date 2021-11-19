@@ -1,20 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1 class="title-g">let's press the keyboard!</h1>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import './css/main.css';
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: { 
+
   }
 }
 </script>
 
-<style>
+<style>     
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,4 +21,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.title-g{
+  font-family: 'Praise', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
 </style>
