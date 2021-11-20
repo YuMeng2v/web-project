@@ -3,7 +3,7 @@
 Keyboard-music generator like mikutap
 https://aidn.jp/mikutap/
 ## Techs
-Vue.js + ElementUI + Vue Router + Webpack
+Vue.js + Vue CLI + Webpack
 
 ## DEMO
 
