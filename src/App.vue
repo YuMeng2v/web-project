@@ -1,7 +1,6 @@
 
 <template>
   <h1 class="title-g">let's press the keyboard!</h1>
-  
 </template>
 <script>
 import './css/main.css';
@@ -18,8 +17,12 @@ document.addEventListener('keydown',function(e){
     //alert(e.key=="a");//以字符的形式返回
     let a = reaction2key(e.key);
     var audi = a['sound'] ,color=a['color'];
-    console.log(a);
-    if(audi) audi.play();
+    if(audi) 
+    {
+      console.log(audi)
+      console.log(audi._src)
+      audi.play();
+    }
 })
 </script>
 
