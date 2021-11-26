@@ -1,6 +1,6 @@
 ## Techs
 
-JS + HTML + CSS + Jquery 
+JS + HTML + CSS + jQuery 
 # 
 * simple realization of keyboard music with animation
 * screen-adaption
